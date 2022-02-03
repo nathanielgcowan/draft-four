@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `Nathaniel`,
+    siteTitleAlt: `Nathaniel - Full Stack Web Developer`,
+    siteHeadline: `Nathaniel - Full Stack Web Developer`,
+    siteUrl: `https://draftfourmain.gatsbyjs.io/`,
+    siteDescription: `Portfolio site of my work.`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteImage: `/bannerreplace.jpg`,
+    author: `@Nathani28979817`,
   },
   plugins: [
     {
@@ -25,23 +25,23 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Nathaniel - @lNathani28979817/PersonalPortfolio`,
+        short_name: `Nathaniel`,
+        description: `Hi everybody. This is my portfolio.`,
         start_url: `/`,
-        background_color: `#141821`,
+        background_color: `#7DDB7D`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#f6ad55`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/Nlogo.png`,
             sizes: `192x192`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/Nlogo.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
